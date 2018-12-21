@@ -1,7 +1,7 @@
 import xlsxwriter
 
 data_list = ['A+', 'A', 'B+', 'B', 'C+', 'C', 'F']
-workbook = xlsxwriter.Workbook('dropdown_test.xlsx')
+workbook = xlsxwriter.Workbook('./excel/dropdown_test.xlsx')
 worksheet = workbook.add_worksheet()
 worksheet2 = workbook.add_worksheet()
 
